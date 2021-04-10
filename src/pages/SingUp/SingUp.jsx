@@ -23,7 +23,7 @@ class _SingUp extends Component {
 
   render() {
     return (
-      <div>
+      <div className="sing-up">
         {
           <div className="userName-edit-container">
             <h1>SingUp</h1>
