@@ -1,0 +1,43 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .moves {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .transfer-moves-container {
+      .move {
+        margin: 5px;
+
+      }
+    }
+
+  }
+
+  .home-page-title {
+    color: #4e4e4e;
+  }
+
+  .home-page-coins {
+    color: #4e4e4e;
+  }
+
+  .home-page-rate {
+    color: #4e4e4e;
+  }
+}
+
+.contact-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .label-filterBy {
+    margin-inline-end: 10px;
+  }
+}

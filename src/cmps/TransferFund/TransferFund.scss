@@ -1,0 +1,20 @@
+.transfer-fund {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .input-transfer {
+    width: 100px;
+    padding: 2.5px 5px;
+  }
+
+  .moves {
+    .move-Transfer {
+      color: rgb(78, 78, 78);
+      margin: 10px;
+    }
+
+  }
+
+}

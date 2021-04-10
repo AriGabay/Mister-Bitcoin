@@ -1,0 +1,30 @@
+.contact-details {
+  margin: 0 auto;
+  width: 50%;
+
+  &*> {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .text-contact-details {
+    text-align: center;
+  }
+
+  .details-container-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin-inline-end: 10px;
+      margin-top: 10px;
+    }
+
+  }
+}

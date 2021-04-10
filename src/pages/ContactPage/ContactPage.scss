@@ -1,0 +1,12 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .btn-add-contact {
+    margin: 10px;
+    border-radius: 1rem;
+    color: #4e4e4e;
+  }
+}

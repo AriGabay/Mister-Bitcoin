@@ -1,0 +1,22 @@
+.contact-edit-container {
+  text-align: center;
+
+  .from-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    #nameInputEdit {
+      margin: 10px;
+    }
+
+    #emailInputEdit {
+      margin: 10px;
+    }
+
+    #phoneInputEdit {
+      margin: 10px;
+    }
+  }
+}

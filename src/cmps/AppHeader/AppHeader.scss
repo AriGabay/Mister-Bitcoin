@@ -1,0 +1,46 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .hamburger-svg {
+    padding: 10px;
+  }
+
+  .logo-header {
+    padding-inline-start: 10px;
+    color: #4e4e4e
+  }
+
+  .list-links {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+    align-items: center;
+
+    .nav-link {
+      color: rgb(78, 78, 78);
+      margin: 10px;
+      text-decoration: none;
+    }
+  }
+
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    *> {
+      margin: 10px;
+    }
+
+    .nav-link {
+      color: rgb(78, 78, 78);
+      text-decoration: none;
+
+    }
+  }
+}

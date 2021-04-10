@@ -1,0 +1,22 @@
+.contact-preview {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+  .name-contact-preview {
+    list-style: none;
+    text-decoration: none;
+    color: #4e4e4e;
+  }
+
+  .preview-img {
+    width: 100px;
+    height: 100px;
+  }
+
+}
